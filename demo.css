@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Images/pexels-annamw-1120162.jpg);
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 35px;
+    font-size: 13px;
+    background-color: rgba(0,0,0,0.3);
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.timer{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.newyear{
+    font-family: 'Inspiration', cursive;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+@media (min-width:550px) {
+    .timer{
+        font-size: 20px;
+    }
+    .countdown{
+        font-size: 25px;
+    }
+
+    .newyear{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:950px) {
+    .timer{
+        font-size: 40px;
+    }
+
+    .countdown{
+        font-size: 50px;
+    }
+
+    .newyear{
+        font-size: 60px;
+    }
+}
